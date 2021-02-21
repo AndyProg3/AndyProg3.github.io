@@ -50,4 +50,9 @@ body {
 .my-3 {
     margin-bottom: 0 !important;
     margin-top: .5em !important;
+    
+}
+
+.project {
+    margin-bottom: 1.2em;
 }
