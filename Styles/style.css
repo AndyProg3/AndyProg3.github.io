@@ -5,10 +5,11 @@ html {
 
 
 body {
-    --body-bg: #006eff; /*Creating a variable to have reference to body background color */
+    --body-bg: #002d69; /*Creating a variable to have reference to body background color */
+    --comp-bg: #ffffff;
     background-color: var(--body-bg);
     margin-bottom: 40px;
-    color: white;
+    color: var(--comp-bg);
 }
 
 /*Sticky footer*/
@@ -19,8 +20,8 @@ body {
     height: 45px; /* Set the fixed height of the footer here */
     line-height: 45px; /* Vertically center the text there */
     text-align: center;
-    color: black;
-    background-color: rgb(245, 202, 110);
+    color: var(--comp_bg);
+    background-color: var(--body-bg);
 }
 
 /*Use any place you need light text*/
@@ -39,24 +40,12 @@ body {
     padding: 1em;
     margin: 1.2em;
     color: black;
+    background-color: var(--comp-bg);
 }
 
 .card-footer {
-    background-color: white;
+    background-color: var(--comp-bg);
 }
-
-/*Inline link colors*/
-.inline-link {
-    color: white;
-    text-decoration: underline;
-}
-
-.inline-link:hover {
-    color: b2ebf2;
-    text-decoration: underline;
-}
-
-/*END Inline link colors*/
 
 .my-3 {
     margin-bottom: 0 !important;
