@@ -22,6 +22,7 @@ body {
     text-align: center;
     color: var(--comp_bg);
     background-color: var(--body-bg);
+    border-top: 2px solid black;
 }
 
 /*Use any place you need light text*/
@@ -52,6 +53,14 @@ body {
     margin-top: .5em !important;
 }
 
+.my-4 {
+    border-top: 2px solid black !important;
+}
+
 .project {
     margin-bottom: 1.2em;
+}
+
+#Expertise {
+    padding-bottom: 1.2em;
 }
