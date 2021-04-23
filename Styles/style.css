@@ -3,6 +3,10 @@ html {
   min-height: 100%;
 }
 
+@font-face {
+    font-family: headerFont;
+    src: url("../Files/Mary\ Jane\ Olyff.ttf")
+}
 
 body {
     --body-bg: #002d69; /*Creating a variable to have reference to body background color */
@@ -10,6 +14,10 @@ body {
     background-color: var(--body-bg);
     margin-bottom: 40px;
     color: var(--comp-bg);
+}
+
+h1 {
+    font-family: headerFont;
 }
 
 /*Sticky footer*/
