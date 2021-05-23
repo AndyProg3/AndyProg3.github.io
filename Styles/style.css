@@ -1,6 +1,7 @@
 html {
   position: relative;
   min-height: 100%;
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -23,6 +24,7 @@ h1 {
 .jumbotron {
     background-image: linear-gradient(to right, var(--body-bg), black);
     border-bottom: black 2px solid;
+    width: 100vw;
 }
 
 .min-vw-50 {
