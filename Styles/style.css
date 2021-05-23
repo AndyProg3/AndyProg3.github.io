@@ -20,6 +20,15 @@ h1 {
     font-family: headerFont;
 }
 
+.jumbotron {
+    background-image: linear-gradient(to right, var(--body-bg), black);
+    border-bottom: black 2px solid;
+}
+
+.min-vw-50 {
+    min-width: 50vw;
+}
+
 /*Sticky footer*/
 .footer {
     position: absolute;
@@ -72,3 +81,10 @@ h1 {
 #Expertise {
     padding-bottom: 1.2em;
 }
+
+
+@media screen and (max-width: 730px) {
+    .jumbotron {
+      height: 100vh;
+    }
+  }
