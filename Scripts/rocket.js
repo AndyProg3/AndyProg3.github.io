@@ -6,7 +6,7 @@ $(document).ready(function() {
 
         window.setTimeout(function () {
             window.location.href = "CPlusProjects.html#Captured";
-        }, 1000);
+        }, 950);
     });
 
 

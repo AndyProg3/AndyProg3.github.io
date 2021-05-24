@@ -12,6 +12,7 @@ html {
 body {
     --body-bg: #002d69; /*Creating a variable to have reference to body background color */
     --comp-bg: #ffffff;
+    --min-header-height: 360px;
     background-color: var(--body-bg);
     margin-bottom: 40px;
     color: var(--comp-bg);
@@ -21,10 +22,16 @@ h1 {
     font-family: headerFont;
 }
 
-.jumbotron {
+#header {
     background-image: linear-gradient(to right, var(--body-bg), black);
     border-bottom: black 2px solid;
+    min-height: var(--min-header-height);
     width: 100vw;
+    margin-bottom: 1em;
+}
+
+#header .row {
+    min-height: var(--min-header-height);
 }
 
 .min-vw-50 {
@@ -77,6 +84,7 @@ h1 {
 }
 
 .project {
+    padding-bottom: 1em;
     margin-bottom: 1.2em;
 }
 
@@ -104,7 +112,7 @@ h1 {
 
 
 #rocket {
-    cursor: hand;
+    cursor: pointer;
 }
 
 #l0, #l1, #l2, #l3, #l4, #l5, #l6, #l7, #l8, #l9 {
