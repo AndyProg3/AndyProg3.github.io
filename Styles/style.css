@@ -22,7 +22,7 @@ h1 {
     font-family: headerFont;
 }
 
-h3 {
+h5 {
   font-weight: bolder;
   -webkit-text-stroke: .05rem black;
   font-size: 1.5rem;
