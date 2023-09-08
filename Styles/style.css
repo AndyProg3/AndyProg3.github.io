@@ -24,7 +24,6 @@ h1 {
 
 #header {
     background-image: linear-gradient(to right, var(--body-bg), black);
-    border-bottom: black 2px solid;
     min-height: var(--min-header-height);
     width: 100vw;
     margin-bottom: 1em;
