@@ -4,9 +4,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Styles/style.css" />
+    <link rel="stylesheet" href="Styles/re-style.css" />
 </head>
 
 <body>
@@ -30,14 +29,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.linkedin.com/in/andy-powell-85304485/" target="_blank">LinkedIn</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Fellthorn.html">Fellthorn Games</a>
-                </li>
             </ul>
         </div>
     </nav>
 
-    
     <div class="container-fluid bg-body txt-light" id="header">
         <div class="row align-items-center">
             <div class="col mx-auto">
@@ -45,96 +40,50 @@
                     <span id="l0">A</span><span id="l1">n</span><span id="l2">d</span><span id="l3">y</span>
                     <span id="l4"> P</span><span id="l5">o</span><span id="l6">w</span><span id="l7">e</span><span id="l8">l</span><span id="l9">l</span>
                 </h1>
-                <h3 class="fade" id="job-title">-Full Stack Developer</h3>
+                <h3 class="fade" id="job-title">-Principal Software Developer</h3>
+                <p class="fade">Ten years of software development experience developing clean, highly organized, object oriented applications.</p>
             </div>
-            <div title="Click to view my Captured Project" class="col min-vw-50 fade" id="rocket">
+            <div title="Click to view my Captured Project" class="col min-vw-50 fade" id="rocket"  style="cursor:pointer">
                 <img  alt="Captured Rocket" style="max-width: 100%; max-height: 100%;" src="Images/Rocket.png">
             </div>
         </div>
     </div>
 
-    <div class="container" id="Expertise">
-        <h5 align="center">Ten years of experience developing clean, highly organized, object oriented web and stand-alone desktop applications.</h5>
-        <p align="center">
-            Below are a few of my expertise. Click on each one to view different projects I have completed with them!
-
-
-        </p>
-        <div class="card-deck">
-            <!--PLSQL Projects-->
-            <div class="card">
-                <h5 class="card-title">PLSQL & Oracle APEX</h5>
-                <hr class="my-3">
-                <div class="card-body">
-                    <p class="card-text">While working at Valdosta State University, I became proficient in Oracle APEX 3.2 and APEX 5.1. Ever since then, I have followed all the updates and use APEX as a teaching tool at Wiregrass.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="APEXProjects.html" class="btn btn-primary btn-block">Oracle APEX Example</a>
-                </div>
-            </div>
-            <!--Python-->
-            <div class="card">
-                <h5 class="card-title">Python</h5>
-                <hr class="my-3">
-                <div class="card-body">
-                    <p class="card-text">I've recently picked up Python as my "Daily Driver" programming language. It's speed at which you can script something makes programming fun again.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="PythonProjects.html" class="btn btn-primary btn-block">Python Projects</a>
-                </div>
-            </div>  
-            <!--C#-->
-            <div class="card">
-                <h5 class="card-title">C#</h5>
-                <hr class="my-3">
-                <div class="card-body">
-                    <p class="card-text">C# has great versatility especially with the .net framework. This is why I like to use it for a multitude of projects, large or small.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="CSharpProjects.html" class="btn btn-primary btn-block">C# Projects</a>
-                </div>
-            </div>
-            <!--C++-->
-            <div class="card">
-                <h5 class="card-title">C++</h5>
-                <hr class="my-3">
-                <div class="card-body">
-                    <p class="card-text">I taught myself C++ while in highschool, it is the first language I ever learned. I mostly use it for its speed, direct memory access and game advantages.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="CPlusProjects.html" class="btn btn-primary btn-block">C++ Projects</a>
-                </div>
-            </div>
-            <!--PHP Projects-->
-            <div class="card">
-                <h5 class="card-title">PHP</h5>
-                <hr class="my-3">
-                <div class="card-body">
-                    <p class="card-text">I do a lot of free-lance work in PHP. It's my go to language in a WAMP stack, due to it's wide use in the web market. Click the button below to see some of my work with the WAMP stack.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="PHPProjects.html" class="btn btn-primary btn-block">PHP Projects</a>
-                </div>
-            </div>  
-            <!--Unreal Engine 4-->
-            <div class="card">
-                <h5 class="card-title">Unreal Engine 4</h5>
-                <hr class="my-3">
-                <div class="card-body">
-                    <p class="card-text">UE4, in my opinion, is the best game engine for anyone to use. Its use of the C++ language mixed with their Blueprints makes it easy to learn and use.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="Fellthorn.html" class="btn btn-primary btn-block">UE4 Projects</a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <button class="ap-Button m-auto" onclick="location.href='APEXProjects.html'">
+                                PLSQL & Oracle APEX
+                            </button>
+                            <button class="ap-Button m-auto" onclick="location.href='PythonProjects.html'">
+                                Python
+                            </button>
+                            <button class="ap-Button m-auto" onclick="location.href='CSharpProjects.html'">
+                                C#
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <button class="ap-Button m-auto" onclick="location.href='CPlusProjects.html'">
+                                C++
+                            </button>
+                            <button class="ap-Button m-auto" onclick="location.href='PHPProjects.html'">
+                                PHP
+                            </button>
+                            <button class="ap-Button m-auto" onclick="location.href='Fellthorn.html'">
+                                Unreal Engine 4
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <br/>
-    <div>
-        <small>**Note: There is no card below for HTML/CSS/Javascript/AJAX, but my abilities in those areas are shown in all of my web based programming language examples (C#, PHP, Oracle APEX)</small>
-    </div>
-    <br/>
 
     <footer class="footer" id="footer">
         <div class="container-fluid">
@@ -147,5 +96,4 @@
             </div>
         </div>
     </footer>
-
 </body>
