@@ -60,7 +60,7 @@ button.ap-Button {
 }
 
 button.ap-Button.selected {
-    color: green;
+    color: var(--link-second-color);
 }
 
 button.ap-Button:before {
@@ -92,7 +92,7 @@ button.ap-Button:after {
 
 button.ap-Button.selected:after {
     /* box-shadow: inset 0px 0px 0px 1px grey; */
-    content: '*/';
+    content: '"';
     font-size: calc(var(--btn-font-size) + .5rem);
     color: var(--link-second-color);
 }
