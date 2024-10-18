@@ -1,6 +1,7 @@
 :root {
     --btn-font-size: 1.25rem;
     --navbar-height: 65px;
+    --link-second-color: #5727b3;
 }
 
 html {
@@ -63,7 +64,7 @@ button.ap-Button.selected {
 }
 
 button.ap-Button:before {
-    content: '{';
+    content: '"';
     font-size: calc(var(--btn-font-size) + 1rem);
     font-weight: bold;
     color: gold;
@@ -74,9 +75,9 @@ button.ap-Button:before {
 
 button.ap-Button.selected:before {
     /* box-shadow: inset 0px 0px 0px 1px grey; */
-    content: '/*';
+    content: '"';
     font-size: calc(var(--btn-font-size) + .5rem);
-    color: green;
+    color: var(--link-second-color);
 }
 
 button.ap-Button:after {
@@ -93,23 +94,23 @@ button.ap-Button.selected:after {
     /* box-shadow: inset 0px 0px 0px 1px grey; */
     content: '*/';
     font-size: calc(var(--btn-font-size) + .5rem);
-    color: green;
+    color: var(--link-second-color);
 }
 
 button.ap-Button:hover {
-    color: green;
+    color: var(--link-second-color);
 }
 
 button.ap-Button:hover:before {
     content: '"';
     font-size: calc(var(--btn-font-size) + .5rem);
-    color: green;
+    color: var(--link-second-color);
 }
 
 button.ap-Button:hover:after {
     content: '"';
     font-size: calc(var(--btn-font-size) + .5rem);
-    color: green;
+    color: var(--link-second-color);
 }
 
 
