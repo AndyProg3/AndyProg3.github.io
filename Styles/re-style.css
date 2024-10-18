@@ -113,6 +113,19 @@ button.ap-Button:hover:after {
     color: var(--link-second-color);
 }
 
+button.ap-link {
+    cursor: pointer;
+    border: rgb(224,176,255) solid 1px;
+    background-color: 0;
+    color: rgb(224,176,255);
+    font-size: var(--btn-font-size);
+}
+
+button.ap-link:hover {
+    color: rgb(252, 200, 252);
+    border: rgb(252, 200, 252) solid 1px;
+}
+
 
 
 @media screen and (max-width: 730px) {
