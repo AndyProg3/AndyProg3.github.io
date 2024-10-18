@@ -1,7 +1,7 @@
 :root {
     --btn-font-size: 1.25rem;
     --navbar-height: 65px;
-    --link-second-color: #5727b3;
+    --link-second-color: #D16969;
 }
 
 html {
@@ -64,7 +64,7 @@ button.ap-Button.selected {
 }
 
 button.ap-Button:before {
-    content: '"';
+    content: '{';
     font-size: calc(var(--btn-font-size) + 1rem);
     font-weight: bold;
     color: gold;
