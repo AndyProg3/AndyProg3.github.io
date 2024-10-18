@@ -101,13 +101,13 @@ button.ap-Button:hover {
 }
 
 button.ap-Button:hover:before {
-    content: '/*';
+    content: '"';
     font-size: calc(var(--btn-font-size) + .5rem);
     color: green;
 }
 
 button.ap-Button:hover:after {
-    content: '*/';
+    content: '"';
     font-size: calc(var(--btn-font-size) + .5rem);
     color: green;
 }
